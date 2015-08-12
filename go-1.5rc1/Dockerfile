@@ -3,7 +3,7 @@ FROM ubuntu:latest
 RUN apt-get -qq -y update
 RUN apt-get -qq -y install build-essential git mercurial curl subversion
 
-ENV GOVERSION=1.4.2
+ENV GOVERSION=1.5rc1
 
 ENV GOPATH=/go
 ENV PATH=/go/bin:/usr/local/go/bin:$PATH
