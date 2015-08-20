@@ -4,7 +4,6 @@ RUN apt-get -qq -y update
 RUN apt-get -qq -y install build-essential git mercurial curl subversion
 
 ENV GOVERSION=1.5
-ENV GOVERSION_BOOTSTRAP=1.4
 
 ENV GOPATH=/go
 ENV PATH=/go/bin:/usr/local/go/bin:$PATH
