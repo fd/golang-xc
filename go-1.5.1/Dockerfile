@@ -19,3 +19,6 @@ RUN bash /scripts/install-godep.sh
 
 ADD install-govendor.sh /scripts/install-govendor.sh
 RUN bash /scripts/install-govendor.sh
+
+ADD install-gotestcover.sh /scripts/install-gotestcover.sh
+RUN bash /scripts/install-gotestcover.sh
